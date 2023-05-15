@@ -1,0 +1,154 @@
+
+
+.home{
+    background-image: url(..//image/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.layer{
+    height: 100vh;
+    background-color:#d62e3399;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    }
+    .bar{
+        height: 100vh;
+        width:250px;
+        background-color: #414658;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        display: none;
+    }
+
+    .bar ul li{
+     list-style: none;
+     padding: 24px;
+     transition: all 0.5s;
+    }
+    .bar ul li:hover{
+        color:rgba(214, 46, 52, 0.6) ;
+    }
+.close{
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+    .close:hover{
+        color:rgba(214, 46, 52, 0.6) ;
+    }
+    .open{
+        color: white;
+ position: absolute;
+ top: 50%;
+ /* left: 250px; */
+        cursor: pointer;
+    }
+    .text1{
+        font-size: 28px;
+      
+    }
+   #text4{
+    color: white;
+    
+   }
+    .box-bar{
+        width: 300px;
+    }
+.singer{
+background-color: #e68285;
+color: white;
+font-size: 24px;
+cursor: pointer;
+}
+.singer-des{
+background-color: #cccccc;
+display: none;
+font-size: 14px;
+}
+
+.singer, .singer-des{
+    width: 700px;
+    text-align: center;
+    padding: 5px;
+}
+.calender{
+    background-image: url(..//image/invitation-2508607__340.jpg);
+    height:250px;
+    position: relative;
+}
+.calender-layer{
+position: absolute;
+
+height:250px;
+width: 100%;
+background-color:#d62e3399;
+}
+.date{
+    width: 250px;
+    height: 150px;
+    border: 1px solid white;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+
+}
+.calender1{
+    width: 1100px;
+}
+.title3{
+    color: #4d4946;
+    font-weight: bold;
+}
+.parag{
+    font-size: 14px;
+}
+.title2{
+    color: #4d4946;
+    font-weight: bold;
+}
+.fa-solid{
+    color: rgba(0, 0, 0, 0.532);
+}
+.col-md-10{
+    color: rgba(0, 0, 0, 0.532);
+}
+ .mail{
+    color:rgb(214, 46, 52);
+}
+.num{
+    color:rgb(214, 46, 52);
+    font-weight: bold;
+}
+.btn{
+    background-color: rgb(214, 46, 52);
+    color: white;
+}
+.socila{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    background-color: transparent;
+    transition: all 0.5s;
+display: flex;
+justify-content: center;
+align-items: center;
+    padding:18px;
+}
+.socila:hover {
+    background-color: rgb(214, 46, 52); 
+}
+.social-icons{
+    width: 300px;
+    justify-content: space-between;
+}
+.fa-brands{
+    color: rgba(0, 0, 0, 0.6);
+}
